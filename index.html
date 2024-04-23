@@ -39,8 +39,8 @@
 </head>
 
 <body>
-	<div class="top-header">
-		<h3 class="name">Nina Carducci</h3>
+	<div class="top-header" itemscope itemtype="https://schema.org/Person">
+		<h3 class="name" itemprop="name">Nina Carducci</h3>
 		<div class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -94,8 +94,9 @@
 		</div>
 	</div>
 	<div id="about">
-		<div class="picture left">
-			<img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci" srcset="./assets/images/nina.png">
+		<div class="picture left" itemscope itemtype="https://schema.org/Person">
+			<img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci" srcset="./assets/images/nina.png"
+				itemprop="image">
 		</div>
 		<div id="about-me">
 			<h3 class="about-me__title">A propos de moi</h3>
@@ -213,10 +214,19 @@
 		<div class="container">
 			<div class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
-				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures.<br><time itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">Au téléphone je réponds du lundi au vendredi de 10h à 19h: </time><span itemprop="telephone" content="05 56 67 78 89">05 56 67 78 89. <br></span><span class="open-hours" itemprop="openingHoursSpecification" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
-				</span></p>
-				<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> également vous pouvez venir me voir dans mon studio: <br>
-					Adresse: 
+				<div> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures.<br>
+					<span itemprop="openingHoursSpecification" itemscope
+						itemtype="https://schema.org/OpeningHoursSpecification">Au téléphone je réponds du
+						lundi au
+						vendredi de <time itemprop="opens" content="10:00">10h</time> à <time itemprop="closes"
+							content="10:00">19h</time>: </span>
+					<span itemprop="telephone">05 56
+						67 78
+						89. <br>
+					</span>
+				</div>
+				<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> également vous pouvez venir
+					me voir dans mon studio: <br>
 					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
 					<span itemprop="addressLocality">Bordeaux</span>,
 					<span itemprop="addressRegion"> Bordeaux</span>

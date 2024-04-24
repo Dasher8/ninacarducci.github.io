@@ -30,7 +30,6 @@
 	<meta property="og:image" content="./assets/images/nina.png" />
 	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@NinaCarducci" />
 	<meta name="twitter:title" content="Photographe Nina Carducci" />
 	<meta name="twitter:description"
 		content="Shooting photo professionnelle: portraits & événementiel à Bordeaux/Île-de-France, retouches photo, album photos." />
@@ -65,18 +64,20 @@
 					aria-label="Slide 3"></button>
 			</div>
 			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_50_1_50.webp"
-						class="d-block w-100" alt="Un homme qui marche"
-						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg">
+				<div class="carousel-item active" itemscope itemtype="https://schema.org/ImageObject">
+					<img itemprop="contentUrl"
+						src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_50_1_50.webp" class="d-block w-100"
+						alt="Un homme qui marche" srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg">
 				</div>
-				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_50_1_50.webp"
+				<div class="carousel-item" itemscope itemtype="https://schema.org/ImageObject">
+					<img itemprop="contentUrl"
+						src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_50_1_50.webp"
 						class="d-block w-100" alt="Une groupe des gens"
 						srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg">
 				</div>
-				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_1300x601.webp"
+				<div class="carousel-item" itemscope itemtype="https://schema.org/ImageObject">
+					<img itemprop="contentUrl"
+						src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_1300x601.webp"
 						class="d-block w-100" alt="Photo de mariage"
 						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg">
 				</div>
@@ -171,8 +172,8 @@
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
 						Île-de-France pour réaliser vos photos</p>
 				</div>
-				<div class="service__price">
-					<h4 itemprop="price">350€/demi journée</h4>
+				<div class="service__price" itemprop="price">
+					<h4>350€/demi journée</h4>
 					<span>Matériel, déplacement inclus</span>
 				</div>
 
@@ -183,8 +184,8 @@
 					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
 						optimal pour vos publications</p>
 				</div>
-				<div class="service__price">
-					<h4 itemprop="price">50€/photo</h4>
+				<div class="service__price" itemprop="price">
+					<h4>50€/photo</h4>
 					<span>2 AR par photo</span>
 				</div>
 			</div>
@@ -194,8 +195,8 @@
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
 						album photo personnalisé</p>
 				</div>
-				<div class="service__price">
-					<h4 itemprop="price">400€ album A4</h4>
+				<div class="service__price" itemprop="price">
+					<h4>400€ album A4</h4>
 					<span>30 pages recto/verso</span>
 				</div>
 			</div>
@@ -242,8 +243,9 @@
 					<input type="submit" value="Envoyer">
 				</form>
 			</div>
-			<div class="picture right">
-				<img src="./assets/images/camera.webp" alt="Appareil de photo" srcset="./assets/images/camera.png" width="409px" height="408px">
+			<div class="picture right" itemscope itemtype="https://schema.org/ImageObject">
+				<img itemprop="contentUrl" src="./assets/images/camera.webp" alt="Appareil de photo"
+					srcset="./assets/images/camera.png" width="409px" height="408px">
 			</div>
 		</div>
 	</div>

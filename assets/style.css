@@ -249,11 +249,9 @@ footer {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	background-color: #BEB45A;
+	background-color: #1C6474;
 }
 .fa-copyright {
-	
-	color: #fff;
 	margin-right: 10px;
 }
 

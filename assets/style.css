@@ -244,6 +244,23 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+footer {
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: #BEB45A;
+}
+.fa-copyright {
+	
+	color: #fff;
+	margin-right: 10px;
+}
+
+.credits {
+	color: #fff;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -351,6 +368,14 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+
+	.fa-copyright {
+		margin-right: 10px;
+	}
+	
+	.credits {
+		font-size: 14px;
 	}
 }
 
